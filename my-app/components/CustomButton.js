@@ -47,8 +47,8 @@ const CustomButton = ({
     Button =  (
       <div>
         <div className={styles.description}>
-          Presale has started!!! If your address is whitelisted, Mint a Crypto
-          Dev 🥳
+          Presale has started!!!<br />
+          If your address is whitelisted, Mint a Crypto Dev 🥳
         </div>
         <button className={styles.button} onClick={presaleMint}>
           Presale Mint 🚀
