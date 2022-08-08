@@ -10,7 +10,7 @@ export default function handler(req, res) {
 
   const name = `Crypto Dev ${tokenId}`;
   const description = "Crypto Devs is an NFT collection for Web3 developers";
-  const image = ``; //TODO: add URI after deploying
+  const image = `https://raw.githubusercontent.com/mis-coder/crypto-devs-nft-collection/main/my-app/public/cryptodevs/${Number(tokenId) - 1}.svg`;
 
   res.status(200).json({ name, description, image })
 }
